@@ -22,6 +22,9 @@ In root project please run:
 
 Result should be like below: 
 
+<img width="1439" alt="Zrzut ekranu 2022-05-22 o 22 45 48" src="https://user-images.githubusercontent.com/34887398/169717014-c67a753e-d531-409e-8b9a-11119de44190.png">
+
+
 
 
 
