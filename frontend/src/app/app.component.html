@@ -1,0 +1,23 @@
+<h1>SIMPLE CALCULATOR</h1>
+
+<p><input type="text" id="input" name="input" #input></p>
+<button type="button" class="btn red darken-1" (click)="calculate(input.value)">Calculate</button>
+
+<h2>Last operations</h2>
+
+<table class="table table-hover">
+  <thead>
+  <tr>
+    <td>Id</td>
+    <td>Input</td>
+    <td>Result</td>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let operation of operations">
+    <td>{{operation.id}}</td>
+    <td>{{operation.input}}</td>
+    <td>{{operation.result}}</td>
+  </tr>
+  </tbody>
+</table>
